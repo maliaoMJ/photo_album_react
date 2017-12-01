@@ -21,7 +21,7 @@ html,body{
   position:relative;
   width:100%;
   height:100%;
-  overflow: hidden;
+  overflow: auto;
   background-color:#ddd;
 }
 /*image-box end*/
@@ -36,3 +36,30 @@ html,body{
   text-align: center;
 }
 /*control-box end*/
+
+/*img-figure srart*/
+.img-figure{
+width:320px;
+height:360px;
+margin:0px;
+padding:40px;
+position:absolute;
+background-color:#fff;
+box-sizing: border-box;
+}
+.img-figure>img{
+width:240px;
+height:240px;
+}
+/*img-figure end*/
+/*figcaption start*/
+figcaption{
+  text-align: center;
+}
+.img-title{
+margin:20px 0 0 0 ;
+font-size: 16px;
+color:#a7a0a2;
+}
+/*figcaption end*/
+
